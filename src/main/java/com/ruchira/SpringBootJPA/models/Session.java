@@ -27,7 +27,7 @@ public class Session {
     )
     private List<Speaker> speakers;
 
-    Session(){}
+    public Session(){}
 
     public List<Speaker> getSpeakers() {
         return speakers;

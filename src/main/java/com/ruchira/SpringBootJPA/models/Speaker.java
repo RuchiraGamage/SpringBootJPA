@@ -33,7 +33,7 @@ public class Speaker {
     @JsonIgnore
     private List<Session> sessions;
 
-    Speaker(){
+    public Speaker(){
     }
 
     public byte[] getSpeaker_photo() {
